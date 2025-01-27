@@ -41,7 +41,7 @@ document.getElementById("showCalendar").addEventListener("click", function () {
   var heroImage = document.querySelector(".hero_img");
 
   // Aplicăm animația de coborâre a imaginii
-  heroImage.style.animation = "slideDown 1.5s ease-out forwards";
+  heroImage.style.animation = "slideDown 3s ease-out forwards";
 
   // Asigurăm că imaginea devine vizibilă (în cazul în care era ascunsă)
   heroImage.style.opacity = "1";

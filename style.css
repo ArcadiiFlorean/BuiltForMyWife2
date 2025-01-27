@@ -62,6 +62,11 @@
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  margin-bottom: -20px;
+}
+
+.hero_h2 {
+  margin-bottom: 45px;
 }
 .hero_main_text {
   margin-left: 134px;
@@ -71,6 +76,17 @@
   font-style: normal;
 }
 
+span {
+  color: #31ccef;
+  font-size: larger;
+
+}
+.devisa_nav {
+  font-size: 25px;
+  font-family: "Playwrite IN", serif;
+  font-weight: 700;
+  color: #efbd31;
+}
 .hero_img {
   opacity: 0; /* Inițial, imaginea este invizibilă */
   transform: translateY(-50px); /* Imaginea este împinsă în sus */

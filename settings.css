@@ -11,3 +11,13 @@
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
 }
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+{
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+
+}
