@@ -1,47 +1,53 @@
+.header {
+  padding-top: 25px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 32px;
 }
 
 .nav_items {
   display: flex;
-  list-style: none;
-  gap: 48px;
+  align-items: center;
+  gap: 25px;
 }
 
 .nav_list {
-  display: flex;
-}
-.nav_link {
-  font-size: large;
-  text-decoration: none;
-  color: black;
-  color: white;
 }
 
+.nav_link {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.nav_link:hover {
+  color: #efbd31; /* Schimbă culoarea textului la hover */
+  transform: scale(1.1); /* Mărește ușor link-ul */
+  text-shadow: 0px 4px 10px rgba(239, 189, 49, 0.5); /* Adaugă un efect de strălucire */
+}
 .button_nav {
-  border-radius: 4px solid purple;
-  border-radius: 25px;
-  padding: 18px 36px;
-  background-color: #efbd31;
-  font-weight: 700;
-  font-size: 18px;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 50px;
+  background: rgb(135, 135, 228);
+  font-family: "Sailec Medium";
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
   text-transform: capitalize;
 }
-/*hero content*/
 
-.body {
-    background-color: rgb(0, 0, 0);
-  background-image: url("./img/Hero_img.jp"); /* Replace with your image path */
-  background-size: contain; /* Ensures the image covers the entire page */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed; /* Keeps the image fixed during scrolling */
-  background-position: center; /* Centers the image */
-  margin: 0; /* Removes default margin */
-  padding: 0; /* Removes default padding */
+.button_nav:hover {
+  background: rgb(102, 102, 242);
+  transform: translate(0px, -2px);
+  transition: all 0.3s ease;
 }
+
+/*hero content*/
 
 .hero_content {
   display: flex;
@@ -53,46 +59,123 @@
   line-height: 110%;
   margin-top: 128px;
   color: rgb(238, 236, 236);
-
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.hero_main_text{
-    margin-left: 134px;
-    color: white;
+.hero_main_text {
+  margin-left: 134px;
+  color: white;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
+.hero_img {
+  opacity: 0; /* Inițial, imaginea este invizibilă */
+  transform: translateY(-50px); /* Imaginea este împinsă în sus */
+  animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
+}
+@keyframes slideDown {
+  to {
+    opacity: 1; /* Imaginea devine complet vizibilă */
+    transform: translateY(0); /* Imaginea ajunge la poziția sa normală */
+  }
+}
 
 /*experiment*/
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f9f9f9;
+
+  background-color: #000000;
 }
+
+/*calendar*/
+/* Stilizare buton */
+.button_nav {
+  background-color: #4caf50; /* Culoare verde */
+  color: white; /* Text alb */
+  padding: 14px 20px; /* Margini interne */
+  font-size: 16px; /* Dimensiune text */
+  border: none; /* Fără bordură */
+  border-radius: 5px; /* Colțuri rotunjite */
+  cursor: pointer; /* Cursor pointer la hover */
+  transition: background-color 0.3s ease; /* Tranziție lină pentru culoare */
+}
+
+.button_nav:hover {
+  background-color: #45a049; /* Culoare verde mai închisă la hover */
+}
+
+/* Stilizare calendar */
 .calendar-container {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: none; /* Ascuns implicit */
+  background-color: #f9f9f9; /* Culoare de fundal deschisă */
+  border: 1px solid #ddd; /* Bordură gri */
+  padding: 20px; /* Margini interne */
+  border-radius: 10px; /* Colțuri rotunjite */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra subtilă */
+  max-width: 400px; /* Lățime maximă */
+  margin-top: 20px; /* Marjă de sus */
+  /* Animație pentru apariția calendarului */
+
+  display: none; /* Ascuns implicit */
+  opacity: 0; /* Inițial transparent */
+  transform: translateY(-20px); /* Împins în sus pentru efectul de intrare */
+  animation: fadeIn 1s forwards; /* Animație de 1 secundă pentru apariție */
 }
+
+/* Definirea animației */
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Face obiectul complet vizibil */
+    transform: translateY(0); /* Revine la poziția originală */
+  }
+}
+
+.calendar-container h2 {
+  font-size: 24px; /* Dimensiune mare pentru titlu */
+  color: #333; /* Culoare text gri închis */
+}
+
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* Marjă între grupuri de formular */
 }
-label {
-  display: block;
-  margin-bottom: 5px;
+
+.form-group label {
+  font-size: 14px; /* Dimensiune mică pentru etichete */
+  color: #555; /* Culoare gri pentru etichete */
+  display: block; /* Aliniere pe linii separate */
 }
-input, select, button {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+
+.form-group input,
+.form-group select {
+  width: 90%; /* Lățime completă */
+  padding: 10px; /* Margini interne */
+  border: 1px solid #ccc; /* Bordură gri */
+  border-radius: 5px; /* Colțuri rotunjite */
+  font-size: 14px; /* Dimensiune text */
+  margin-top: 5px; /* Marjă de sus pentru inputuri */
 }
-button {
-  background-color: #007BFF;
-  color: white;
-  cursor: pointer;
+
+button#submit {
+  background-color: #007bff; /* Culoare albastră */
+  color: white; /* Text alb */
+  padding: 12px 18px; /* Margini interne */
+  font-size: 16px; /* Dimensiune text */
+  border: none; /* Fără bordură */
+  border-radius: 5px; /* Colțuri rotunjite */
+  cursor: pointer; /* Cursor pointer la hover */
+  transition: background-color 0.3s ease; /* Tranziție lină pentru culoare */
 }
-button:hover {
-  background-color: #0056b3;
+
+button#submit:hover {
+  background-color: #0056b3; /* Culoare albastră mai închisă la hover */
+}
+
+/* Clasa pentru confirmarea cu mesaj verde */
+.confirmation-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
 }
