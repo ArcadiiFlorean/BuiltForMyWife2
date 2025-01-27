@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./settings.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <img
+            src="./img/Logo_img.jpg"
+            width="50"
+            alt="Logo"
+            class="logo_img"
+          />
+          <ul class="nav_items">
+            <li class="nav_list">
+              <a href="./despremine1.html" class="nav_link"
+                >Consultanță în alăptare</a
+              >
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Consultații nutriționale</a>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Consultanță pentru copii</a>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav_link">Despre mine</a>
+            </li>
+          </ul>
+          <button class="button_nav">Programează-te acum</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero_content">
+          <div class="hero_main_text">
+            <h1 class="hero_h1">Dr. Marina Cociug</h1>
+            <h2 class="hero_h2">Consultant în alăptare</h2>
+            <h3 class="hero_deviza">Mame citite, mame calme!</h3>
+            <p class="hero_paragraf">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+              accusantium magnam dolorem iste aspernatur similique tempora
+              itaque, tenetur consequuntur cupiditate minus expedita soluta eius
+              officiis perferendis possimus debitis eos nisi!
+            </p>
+            <div class="calendar-container">
+              <h2>Rezervă o consultație</h2>
+              <div class="form-group">
+                <label for="name">Introduceți numele dvs.:</label>
+                <input type="text" id="name" placeholder="Exemplu: Maria Popescu" required />
+              </div>
+              <div class="form-group">
+                <label for="date">Alege o dată:</label>
+                <input type="date" id="date" required />
+              </div>
+              <div class="form-group">
+                <label for="time">Alege o oră:</label>
+                <select id="time" required>
+                  <option value="" disabled selected>Alegeți o oră</option>
+                  <option value="09:00">09:00</option>
+                  <option value="10:00">10:00</option>
+                  <option value="11:00">11:00</option>
+                  <option value="14:00">14:00</option>
+                  <option value="15:00">15:00</option>
+                  <option value="16:00">16:00</option>
+                </select>
+              </div>
+              <button id="submit">Confirmă Rezervarea</button>
+              <p id="confirmation" style="margin-top: 20px; color: green"></p>
+            </div>
+            
+          </div>
+          <img
+            src="./img/Hero_logo_2.jpg"
+            width="550"
+            alt="Imagine reprezentativă"
+            class="hero_img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="calendar">
+      <h2>Calendar Rezervări</h2>
+      <p>Aici poți selecta o dată disponibilă pentru consultație.</p>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
