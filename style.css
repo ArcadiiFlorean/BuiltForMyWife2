@@ -79,13 +79,13 @@
 span {
   color: #31ccef;
   font-size: larger;
-
 }
 .devisa_nav {
   font-size: 25px;
   font-family: "Playwrite IN", serif;
   font-weight: 700;
   color: #efbd31;
+  margin-right: 175px;
 }
 .hero_img {
   opacity: 0; /* Inițial, imaginea este invizibilă */
