@@ -109,34 +109,34 @@ body {
 /*calendar*/
 /* Stilizare buton */
 .button_nav {
-  background-color: #4caf50; 
-  color: white; 
-  padding: 14px 20px; 
-  font-size: 16px; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease; 
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .button_nav:hover {
-  background-color: #45a049; 
+  background-color: #45a049;
 }
 
 /* Stilizare calendar */
 .calendar-container {
   display: none; /* Ascuns implicit */
-  background-color: #f9f9f9; 
-  border: 1px solid #ddd; 
-  padding: 20px; 
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  max-width: 400px; 
-  margin-top: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin-top: 20px;
   /* Animație pentru apariția calendarului */
 
-  display: none; 
-  opacity: 0; 
+  display: none;
+  opacity: 0;
   transform: translateY(-20px); /* Împins în sus pentru efectul de intrare */
   animation: fadeIn 1s forwards; /* Animație de 1 secundă pentru apariție */
 }
@@ -150,12 +150,12 @@ body {
 }
 
 .calendar-container h2 {
-  font-size: 24px; 
-  color: #333; 
+  font-size: 24px;
+  color: #333;
 }
 
 .form-group {
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 .form-group label {
@@ -166,27 +166,27 @@ body {
 
 .form-group input,
 .form-group select {
-  width: 90%; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 14px; 
-  margin-top: 5px; 
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 button#submit {
   background-color: #007bff; /* Culoare albastră */
-  color: white; 
+  color: white;
   padding: 12px 18px;
-  font-size: 16px; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease; 
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button#submit:hover {
-  background-color: #0056b3; 
+  background-color: #0056b3;
 }
 
 /* Clasa pentru confirmarea cu mesaj verde */
@@ -198,4 +198,24 @@ button#submit:hover {
 
 .calendar {
   color: rgb(199, 245, 181);
+}
+/*footer*/
+.footer_list {
+  display: flex;
+  align-items: center;
+  margin-top: -48px;
+  gap: 25px;
+}
+
+.footer_span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+hr {margin-top: 20px;
+  margin-bottom: 25px;
 }
