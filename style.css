@@ -109,34 +109,34 @@ body {
 /*calendar*/
 /* Stilizare buton */
 .button_nav {
-  background-color: #4caf50; /* Culoare verde */
-  color: white; /* Text alb */
-  padding: 14px 20px; /* Margini interne */
-  font-size: 16px; /* Dimensiune text */
-  border: none; /* Fără bordură */
-  border-radius: 5px; /* Colțuri rotunjite */
-  cursor: pointer; /* Cursor pointer la hover */
-  transition: background-color 0.3s ease; /* Tranziție lină pentru culoare */
+  background-color: #4caf50; 
+  color: white; 
+  padding: 14px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 .button_nav:hover {
-  background-color: #45a049; /* Culoare verde mai închisă la hover */
+  background-color: #45a049; 
 }
 
 /* Stilizare calendar */
 .calendar-container {
   display: none; /* Ascuns implicit */
-  background-color: #f9f9f9; /* Culoare de fundal deschisă */
-  border: 1px solid #ddd; /* Bordură gri */
-  padding: 20px; /* Margini interne */
-  border-radius: 10px; /* Colțuri rotunjite */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbra subtilă */
-  max-width: 400px; /* Lățime maximă */
-  margin-top: 20px; /* Marjă de sus */
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 400px; 
+  margin-top: 20px; 
   /* Animație pentru apariția calendarului */
 
-  display: none; /* Ascuns implicit */
-  opacity: 0; /* Inițial transparent */
+  display: none; 
+  opacity: 0; 
   transform: translateY(-20px); /* Împins în sus pentru efectul de intrare */
   animation: fadeIn 1s forwards; /* Animație de 1 secundă pentru apariție */
 }
@@ -150,12 +150,12 @@ body {
 }
 
 .calendar-container h2 {
-  font-size: 24px; /* Dimensiune mare pentru titlu */
-  color: #333; /* Culoare text gri închis */
+  font-size: 24px; 
+  color: #333; 
 }
 
 .form-group {
-  margin-bottom: 15px; /* Marjă între grupuri de formular */
+  margin-bottom: 15px; 
 }
 
 .form-group label {
@@ -166,27 +166,27 @@ body {
 
 .form-group input,
 .form-group select {
-  width: 90%; /* Lățime completă */
-  padding: 10px; /* Margini interne */
-  border: 1px solid #ccc; /* Bordură gri */
-  border-radius: 5px; /* Colțuri rotunjite */
-  font-size: 14px; /* Dimensiune text */
-  margin-top: 5px; /* Marjă de sus pentru inputuri */
+  width: 90%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  font-size: 14px; 
+  margin-top: 5px; 
 }
 
 button#submit {
   background-color: #007bff; /* Culoare albastră */
-  color: white; /* Text alb */
-  padding: 12px 18px; /* Margini interne */
-  font-size: 16px; /* Dimensiune text */
-  border: none; /* Fără bordură */
-  border-radius: 5px; /* Colțuri rotunjite */
-  cursor: pointer; /* Cursor pointer la hover */
-  transition: background-color 0.3s ease; /* Tranziție lină pentru culoare */
+  color: white; 
+  padding: 12px 18px;
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
 }
 
 button#submit:hover {
-  background-color: #0056b3; /* Culoare albastră mai închisă la hover */
+  background-color: #0056b3; 
 }
 
 /* Clasa pentru confirmarea cu mesaj verde */
@@ -194,4 +194,8 @@ button#submit:hover {
   color: green;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.calendar {
+  color: rgb(199, 245, 181);
 }
