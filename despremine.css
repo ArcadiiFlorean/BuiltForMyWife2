@@ -1,0 +1,42 @@
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h1 {
+    color: #ffc7c7;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Playwrite IN", serif;
+  }
+  
+  .about-section ul {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .about-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .about-section .cta {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #4caf50;
+  }
+  
+  p {
+    font-size: 20px;
+    font-family: "Playwrite IN", serif;
+    line-height: 1.2;
+  }
+
+  strong{
+    font-size: 23px;
+    font-weight: bold;
+  }

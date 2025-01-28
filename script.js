@@ -46,3 +46,6 @@ document.getElementById("showCalendar").addEventListener("click", function () {
   // Asigurăm că imaginea devine vizibilă (în cazul în care era ascunsă)
   heroImage.style.opacity = "1";
 });
+
+
+/*depsre mine sectiunea*/
