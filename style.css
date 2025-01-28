@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+
+  background-color: #9c9696;
+}
+
 .header {
   padding-top: 25px;
 }
@@ -12,6 +18,7 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  list-style: none;
 }
 
 .nav_list {
@@ -58,7 +65,9 @@
   font-size: 58px;
   line-height: 110%;
   margin-top: 128px;
-  color: rgb(238, 236, 236);
+  /*color: rgb(238, 236, 236);*/
+  /*color: #000000;*/
+  color: #f5f5dc;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -84,13 +93,14 @@ span {
   font-size: 25px;
   font-family: "Playwrite IN", serif;
   font-weight: 700;
-  color: #efbd31;
+  color: #a9d9f7;
   margin-right: 175px;
 }
 .hero_img {
   opacity: 0; /* Inițial, imaginea este invizibilă */
   transform: translateY(-50px); /* Imaginea este împinsă în sus */
   animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
+  border-radius: 100px;
 }
 @keyframes slideDown {
   to {
@@ -100,11 +110,6 @@ span {
 }
 
 /*experiment*/
-body {
-  font-family: Arial, sans-serif;
-
-  background-color: #000000;
-}
 
 /*calendar*/
 /* Stilizare buton */
@@ -205,6 +210,7 @@ button#submit:hover {
   align-items: center;
   margin-top: -48px;
   gap: 25px;
+  list-style: none;
 }
 
 .footer_span {
@@ -216,6 +222,7 @@ button#submit:hover {
   margin-bottom: 25px;
 }
 
-hr {margin-top: 20px;
+hr {
+  margin-top: 20px;
   margin-bottom: 25px;
 }
