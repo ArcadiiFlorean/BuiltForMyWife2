@@ -1,0 +1,28 @@
+.resurse_main_content {
+  display: flex;
+}
+
+.resurse_main_text {
+  display: flex;
+  flex-direction: column;
+  max-width: 575px;
+  margin-left: 150px;
+  margin-top: 100px;
+  font-size: 25px;
+  font-family: "Montserrat", serif;
+  color: #794f42;
+}
+
+/* Stilizare generală pentru player */
+/* Stilizare generală pentru player */
+.video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow:25px 14px 55px  #794f42;
+    background: #fa0000;
+  }
+  
+  /* Ascunde butonul default de control */
+
+  /* Containere pentru controale custom */

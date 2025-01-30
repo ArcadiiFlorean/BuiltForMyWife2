@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
 
- /*ckground-color: #9c9696;*/
- background-color:white;
+  /*ckground-color: #9c9696;*/
+  background-color: white;
 }
 
 .header {
@@ -27,7 +27,7 @@ body {
 
 .nav_link {
   text-decoration: none;
-color: #794f42;
+  color: #794f42;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -43,7 +43,7 @@ color: #794f42;
   border-radius: 50px;
   background: rgb(135, 135, 228);
   font-family: "Sailec Medium";
- color: #794f42;
+  color: #794f42;
   cursor: pointer;
   border: none;
   text-transform: capitalize;
@@ -57,8 +57,16 @@ color: #794f42;
 
 /*hero content*/
 
+.hero {
+}
+
 .hero_content {
   display: flex;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Montserrat", serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hero_h1 {
@@ -68,7 +76,7 @@ color: #794f42;
   margin-top: 128px;
   /*color: rgb(238, 236, 236);*/
   /*color: #000000;*/
-color: #794f42;
+  color: #794f42;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -80,7 +88,7 @@ color: #794f42;
 }
 .hero_main_text {
   margin-left: 134px;
-color: #794f42;
+  color: #794f42;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -94,7 +102,7 @@ span {
   font-size: 25px;
   font-family: "Playwrite IN", serif;
   font-weight: 700;
- color: #353535;
+  color: #353535;
   margin-right: 175px;
 }
 .hero_img {
@@ -115,8 +123,8 @@ span {
 /*calendar*/
 /* Stilizare buton */
 .button_nav {
-  background-color:#794f42;
- color: white;
+  background-color: #6c04f4;
+  color: white;
   padding: 14px 20px;
   font-size: 16px;
   border: none;
@@ -126,7 +134,7 @@ span {
 }
 
 .button_nav:hover {
-  background-color:  #31ccef;
+  background-color: #35d618;
   color: black;
 }
 
@@ -213,6 +221,7 @@ button#submit:hover {
   margin-top: -48px;
   gap: 25px;
   list-style: none;
+  padding-top: 25px;
 }
 
 .footer_span {

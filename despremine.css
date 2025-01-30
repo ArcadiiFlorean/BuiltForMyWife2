@@ -1,5 +1,5 @@
 body {
-  background-color: #9c9696;
+  background-color:white;
 }
 .about-section {
   max-width: 800px;
@@ -34,7 +34,7 @@ body {
 
 
 p {
-  color: white;
+  color: #794f42;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -50,7 +50,7 @@ strong {
 }
 
 .acasa{
- color: yellow;
+ color: rgb(0, 38, 255);
   font-family: "Montserrat", serif;
   font-size: 20px;
 }
