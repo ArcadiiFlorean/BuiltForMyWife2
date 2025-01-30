@@ -21,11 +21,33 @@ body {
 #servicii{
 padding-top: 90px;
 padding-bottom: 100px
+
 }
 
 .acasa{
    
 }
+
+.servicii_all{
+  display: flex;
+ 
+}
+
+.servicii_img{
+  border-radius: 100px;
+  opacity: 0; /* Inițial, imaginea este invizibilă */
+  transform: translateY(-50px); /* Imaginea este împinsă în sus */
+  animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
+  border-radius: 100px;
+  box-shadow: 10px 4px 35px  #e0e0e0;;
+}
+
+.serviciu{
+  font-family: "Montserrat", serif;
+  font-size: 24px;
+}
+
+
 
 
 /* Responsivitate */
