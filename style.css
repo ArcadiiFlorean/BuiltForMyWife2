@@ -33,7 +33,7 @@ body {
   font-style: normal;
 }
 .nav_link:hover {
-  color: #efbd31; /* Schimbă culoarea textului la hover */
+  color: #000000; /* Schimbă culoarea textului la hover */
   transform: scale(1.1); /* Mărește ușor link-ul */
   text-shadow: 0px 4px 10px rgba(239, 189, 49, 0.5); /* Adaugă un efect de strălucire */
 }
@@ -57,16 +57,13 @@ body {
 
 /*hero content*/
 
-.hero {
-}
 
 .hero_content {
   display: flex;
-  margin: 50px auto;
+
   padding: 20px;
   font-family: "Montserrat", serif;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 .hero_h1 {
@@ -106,10 +103,12 @@ span {
   margin-right: 175px;
 }
 .hero_img {
+  margin-top: -40px;
   opacity: 0; /* Inițial, imaginea este invizibilă */
   transform: translateY(-50px); /* Imaginea este împinsă în sus */
   animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
   border-radius: 100px;
+
 }
 @keyframes slideDown {
   to {
@@ -218,7 +217,7 @@ button#submit:hover {
 .footer_list {
   display: flex;
   align-items: center;
-  margin-top: -48px;
+
   gap: 25px;
   list-style: none;
   padding-top: 25px;

@@ -11,7 +11,6 @@ body {
   padding: 20px;
 
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .devisa_nav {
   color: rgb(23, 23, 23);
@@ -34,12 +33,12 @@ padding-bottom: 100px
 }
 
 .servicii_img{
-  border-radius: 100px;
+
   opacity: 0; /* Inițial, imaginea este invizibilă */
   transform: translateY(-50px); /* Imaginea este împinsă în sus */
   animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
-  border-radius: 100px;
-  box-shadow: 10px 4px 35px  #e0e0e0;;
+  width:auto;
+  height: 950px;
 }
 
 .serviciu{
