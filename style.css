@@ -237,3 +237,28 @@ hr {
   margin-top: 20px;
   margin-bottom: 25px;
 }
+
+
+/*experiment*/
+/* Mesaj de succes */
+.confirmation-success {
+  animation: fadeIn 2s ease-out;
+  background-color: #d4edda; /* Culoare verde deschis */
+  color: #155724; /* Culoare text verde închis */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Animație pentru mesajul de succes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mesaj de eroare */
