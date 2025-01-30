@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./resurse.html" />
     <link rel="stylesheet" href="./contact.css" />
     <link rel="stylesheet" href="./index.html" />
+    <link rel="stylesheet" href="./submit_form.php">
 
     <link
       rel="stylesheet"
@@ -71,15 +72,15 @@
         <div class="conatact_all">
           <div class="contact_main_left">
             <ul class="footer_list_contact">
-              <li class="footer_items">
-                <a href="#" class="footer_link">
-                  <img
-                    src="./img/whatsapp.svg"
-                    alt="whatsapp"
-                    class="footer_logo_link"
-                  />
-                </a>
-              </li>
+                <li class="footer_items">
+                    <a href="https://wa.me/+44 7510 627788" target="_blank"> 
+                      <img
+                        src="./img/whatsapp.svg"
+                        alt="whatsapp"
+                        class="footer_logo_link"
+                      />
+                    </a>
+                  </li>
               <li class="footer_items_contact">
                 <a
                   href="https://www.instagram.com/marina.cociug/?igsh=MTI4ZDY2Zzk4Nm0xaA%3D%3D#"
@@ -108,24 +109,20 @@
               <p>
                 Completează formularul de mai jos pentru a ne trimite un mesaj.
               </p>
-
-              <form action="submit_form.php" method="POST">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="68e5db95-c81a-4df8-88a8-e5c7a0cae3d0">
                 <label for="name">Nume:</label>
                 <input type="text" id="name" name="name" required />
-
+              
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required />
-
+              
                 <label for="message">Mesaj:</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="5"
-                  required
-                ></textarea>
-
+                <textarea id="message" name="message" rows="5" required></textarea>
+              
                 <button type="submit">Trimite</button>
               </form>
+              
             </div>
           </div>
           <div class="contact_right">
@@ -143,15 +140,15 @@
     <footer class="footer">
       <div class="container">
         <ul class="footer_list">
-          <li class="footer_items">
-            <a href="#" class="footer_link">
-              <img
-                src="./img/whatsapp.svg"
-                alt="whatsapp"
-                class="footer_logo_link"
-              />
-            </a>
-          </li>
+            <li class="footer_items">
+                <a href="https://wa.me/+44 7510 627788" target="_blank"> 
+                  <img
+                    src="./img/whatsapp.svg"
+                    alt="whatsapp"
+                    class="footer_logo_link"
+                  />
+                </a>
+              </li>
           <li class="footer_items">
             <a
               href="https://www.instagram.com/marina.cociug/?igsh=MTI4ZDY2Zzk4Nm0xaA%3D%3D#"
