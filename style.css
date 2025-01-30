@@ -91,6 +91,10 @@ body {
   font-style: normal;
 }
 
+.hero_paragraf{
+  font-size: 20px;
+}
+
 span {
   color: #31ccef;
   font-size: larger;
