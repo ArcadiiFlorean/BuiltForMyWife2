@@ -22,9 +22,6 @@ body {
   list-style: none;
 }
 
-.nav_list {
-}
-
 .nav_link {
   text-decoration: none;
   color: #794f42;
@@ -57,13 +54,10 @@ body {
 
 /*hero content*/
 
-
 .hero_content {
   display: flex;
-
   padding: 20px;
   font-family: "Montserrat", serif;
-
 }
 
 .hero_h1 {
@@ -77,12 +71,9 @@ body {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  margin-bottom: -20px;
+  margin-bottom: -29px;
 }
 
-.hero_h2 {
-  margin-bottom: 45px;
-}
 .hero_main_text {
   margin-left: 134px;
   color: #794f42;
@@ -91,7 +82,7 @@ body {
   font-style: normal;
 }
 
-.hero_paragraf{
+.hero_paragraf {
   font-size: 20px;
 }
 
@@ -112,7 +103,6 @@ span {
   transform: translateY(-50px); /* Imaginea este împinsă în sus */
   animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
   border-radius: 100px;
-
 }
 @keyframes slideDown {
   to {
@@ -240,7 +230,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 25px;
 }
-
 
 /*experiment*/
 /* Mesaj de succes */
