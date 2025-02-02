@@ -98,7 +98,7 @@ span {
   margin-right: 175px;
 }
 .hero_img {
-  margin-top: -40px;
+
   opacity: 0; /* Inițial, imaginea este invizibilă */
   transform: translateY(-50px); /* Imaginea este împinsă în sus */
   animation: slideDown 1.5s ease-out forwards; /* Animație de coborâre lentă */
