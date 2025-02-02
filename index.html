@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./servicii.html" />
     <link rel="stylesheet" href="./resurse.html" />
     <link rel="stylesheet" href="./contact.html" />
+  
 
     <link
       rel="stylesheet"
@@ -70,7 +71,7 @@
           <div class="hero_main_text">
             <h1 class="hero_h1">Dr. Marina Cociug</h1>
             <h2 class="hero_h2"><span>Consultant</span> în alăptare</h2>
-
+    
             <p class="hero_paragraf">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
               accusantium magnam dolorem iste aspernatur similique tempora
@@ -83,62 +84,81 @@
             <button id="showCalendar" class="button_nav">
               Rezervă o consultație
             </button>
-
+    
             <div
               class="calendar-container"
               id="calendarContainer"
               style="display: none"
             >
-              <div class="form-group">
-                <label for="name">Introduceți numele dvs.:</label>
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Exemplu: Maria Georgescu"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="date">Alege o dată:</label>
-                <input type="date" id="date" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Exemplu: maria@email.com" required />
-              </div>
-          
-              <div class="form-group">
-                <label for="telefon">Telefon:</label>
-                <input type="text" id="telefon" name="telefon" placeholder="Exemplu: 0712345678" required />
-              </div>
-              <div class="form-group">
-                <label for="time">Alege o oră:</label>
-                <select id="time" required>
-                  <option value="" disabled selected>Alegeți o oră</option>
-                  <option value="09:00">09:00</option>
-                  <option value="10:00">10:00</option>
-                  <option value="11:00">11:00</option>
-                  <option value="14:00">14:00</option>
-                  <option value="15:00">15:00</option>
-                  <option value="16:00">16:00</option>
-                </select>
-              </div>
-              <button id="submit">Confirmă Rezervarea</button>
+              <!-- Formularul pentru rezervare -->
+              <form action="http://localhost/procesare_rezervare.php" method="POST">
+
+                <div class="form-group">
+                  <label for="name">Introduceți numele dvs.:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="nume"
+                    placeholder="Exemplu: Maria Georgescu"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="date">Alege o dată:</label>
+                  <input type="date" id="date" name="data" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Exemplu: maria@email.com"
+                    required
+                  />
+                </div>
+    
+                <div class="form-group">
+                  <label for="telefon">Telefon:</label>
+                  <input
+                    type="text"
+                    id="telefon"
+                    name="telefon"
+                    placeholder="Exemplu: 0712345678"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="time">Alege o oră:</label>
+                  <select id="time" name="ora" required>
+                    <option value="" disabled selected>Alegeți o oră</option>
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                  </select>
+                </div>
+                
+                <button type="submit" id="submit">Confirmă Rezervarea</button>
+              </form>
               <p id="confirmation" style="margin-top: 20px; color: green"></p>
             </div>
           </div>
+    
           <div class="img">
-              <img
-            src="./img/Hero_img-remove-background.com (1).png"
-            width="570"
-            alt="Imagine reprezentativă"
-            class="hero_img"
-          />
+            <img
+              src="./img/Hero_img-remove-background.com (1).png"
+              width="570"
+              alt="Imagine reprezentativă"
+              class="hero_img"
+            />
           </div>
-        
         </div>
       </div>
     </section>
+    
 
     <footer class="footer">
       <div class="container">

@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS programari;
+
+USE programari;
+
+CREATE TABLE IF NOT EXISTS rezervari (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nume VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    telefon VARCHAR(20) NOT NULL,
+    data DATE NOT NULL,
+    ora TIME NOT NULL
+);

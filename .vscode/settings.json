@@ -44,6 +44,21 @@
       "database": "programari",
       "username": "Arcadii",
       "password": "floreanArcadii1991"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 1000,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Localhost_Programari",
+      "database": "rezervari",
+      "username": "root",
+      "connectionTimeout": 30,
+      "password": ""
     }
   ]
 }
