@@ -59,6 +59,21 @@
       "username": "root",
       "connectionTimeout": 30,
       "password": ""
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Conexiune Locală MySQL",
+      "database": "consultatii",
+      "username": "root",
+      "connectionTimeout": 30,
+      "password": ""
     }
   ]
 }
